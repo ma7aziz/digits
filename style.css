@@ -61,8 +61,11 @@ span {
 
 @media screen and (max-width: 800px) {
     body {
+        overflow: hidden;
         justify-content: center;
-        padding-top: 50px;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        /* padding-top: 50px; */
     }
     img {
         height: 200px;
